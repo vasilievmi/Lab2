@@ -58,6 +58,11 @@ touch hel.py
 
 vim hel.py
 
+    IN VIM: press i to go to insert mode
+    then add code : print ('22 июня 1941 года');print ('ЯПОНИЯ,США,СССР,ГЕРМАНИЯ,ВЕЛИКОБРИТАНИЯ');print ();print ('9 мая 1945 года');print ('Страна победитель - СССР')
+    then press esc button and type :wq to save script.
+    
+    
 chmod 777 hel.py
 
-.\hel.py
+python 3.8 hel.py
