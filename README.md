@@ -81,7 +81,7 @@
 ***
 ## Writing a script using linux,python and vim
     apt install python3.8 
->installing linux
+>installing python
     
     cd/home 
 >go to home directory
