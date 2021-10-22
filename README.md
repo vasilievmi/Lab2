@@ -1,4 +1,4 @@
-# lab3
+# lab2
 
 ![питон](https://static.tildacdn.com/tild3665-3161-4135-b731-356635633937/s1200.jpg)
 ## Python tasks in linux compiler
@@ -39,6 +39,7 @@
 
 ЯПОНИЯ,США,СССР,ГЕРМАНИЯ,ВЕЛИКОБРИТАНИЯ
 
+
 9 мая 1945 года
 
 Страна победитель - СССР
@@ -61,6 +62,7 @@
     print ('Физ-ра\tОПД\tМатанализ\n5\t4\t5')
 
 Физ-ра ОПД Матанализ
+
 5       4       5
 ***
 ### TASK 8
@@ -79,17 +81,39 @@
 ***
 ## Writing a script using linux,python and vim
     apt install python3.8 
-    cd/home
+>installing linux
+    
+    cd/home 
+>go to home directory
+    
     touch hel.py
+>creating a file we will work with
+    
     vim hel.py
+>load this file in **vim**
 
->IN VIM: press i to go to insert mode
+>IN **VIM**: press **i** button to go to insert mode
 >then add code : 
+    
     print ('22 июня 1941 года'); 
     print ('ЯПОНИЯ,США,СССР,ГЕРМАНИЯ,ВЕЛИКОБРИТАНИЯ');
-    print ();print ('9 мая 1945 года');
+    print ();
+    print ('9 мая 1945 года');
     print ('Страна победитель - СССР')
+    
 >then press *esc* button, type **:wq** and press *enter* to save script.
     
     chmod 777 hel.py
+>due to this command our will be a launching file
+    
     python 3.8 hel.py
+>launch our file with python and if you made the steps above you will get output:
+
+>*22 июня 1941 года*
+>
+>*ЯПОНИЯ,США,СССР,ГЕРМАНИЯ,ВЕЛИКОБРИТАНИЯ*
+
+>*9 мая 1945 года*
+
+>*Страна победитель - СССР*
+    
