@@ -104,7 +104,7 @@
 >then press *esc* button, type **:wq** and press *enter* to save script.
     
     chmod 777 hel.py
->due to this command our will be a launching file
+>due to this command our file will be a launching file
     
     python 3.8 hel.py
 >launch our file with python and if you made the steps above you will get output:
